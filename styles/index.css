@@ -5,18 +5,42 @@ h1
     font-weight: 400;
     background-color: black;
 }
-h2{
+h2 {
     color: crimson;
 }
 p {
     color: yellowgreen;
 }
-section{
+section {
     color: teal;
 }
-#lorem{
+#lorem {
     color: crimson;
 }
-.id-test{
-    color: darkblue;
+.id-test {
+    color: rgb(255, 255, 255);
+}
+body {
+    background-image: url(../images/matrix-code.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+button {
+    block-size: 60px;
+    border-width: 3px;
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+    background-color: black;
+    color: limegreen;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+button:hover{
+    background-color: limegreen;
+    color: black;
+    transition-duration: 0.3s;
+    border-color: black;
 }
